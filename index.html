@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script id="chatway" async="true" src="https://cdn.chatway.app/widget.js?id=5T69TQe9TxmS"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+    <meta name="google-site-verification" content="cnFVFlNy3Uucrks7pL5-cck1IkSxzWCYg_eDdnhXzsI" />
+    <title>Future Apparel</title>
+</head>
+
+<body>
+    <section name="navbar">
+        <header>
+            <nav>
+                <ul class="nav-bar">
+                    <li class="logo">
+                        <a href="/"><img src="/Assets/images/wlogo.png" alt="Future Apparel Text Logo" /></a>
+                    </li>
+                    <input type="checkbox" id="check" />
+                    <span class="menu">
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li>
+                            <a href="/#sports-genre">Jersey</a>
+                        </li>
+
+                        <li><a href="/partner">Partner</a></li>
+                        <li><a href="/about_us">About Us</a></li>
+                        <li><a href="/login">Login</a></li>
+                        <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                    </span>
+                    <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+                </ul>
+            </nav>
+        </header>
+    </section>
+
+    <div class="seperator"></div>
+    <section>
+        <div class="hero-container">
+            <div class="hero-swapper">
+                <div class="hero-text">
+                    <p>Custom Apparel</p>
+                    <strong>Customize Your Apparel</strong>
+                </div>
+                <div class="hero-btn">
+                    <button onclick="window.location.hash='sports-genre';">Explore Now</button>
+                </div>
+            </div>
+            <div class="hero-swapper">
+                <img src="/Assets/images/hero-jersey.png" alt="hero-jersey" />
+            </div>
+        </div>
+    </section>
+
+    <section name="check-container">
+        <div class="container">
+            <div class="container-text">
+                <strong> Why be ordinary<br />When you can be extraordinary? </strong>
+                <p>
+                    Generate a unique and personalized uniform for your needs. You have the option to select from our
+                    existing designs or opt for a special design consultation with our talented designer. Either way,
+                    the outcome will be extraordinary!
+                </p>
+            </div>
+            <div class="container-cards">
+                <div class="cards">
+                    <div class="cards-img">
+                        <img src="Assets/images/hero-jersey.png" alt="Jersey" />
+                    </div>
+                    <div class="cards-text">
+                        <strong>Check Designs</strong>
+                        <p>
+                            Check the available designs from the wide collection of pre-made custom designs.
+                        </p>
+                        <a href="product"><button>Check Now</button></a>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <div class="cards-img">
+                        <img src="Assets/images/hero-jersey.png" alt="Jersey" />
+                    </div>
+                    <div class="cards-text">
+                        <strong>Book a Quotation</strong>
+                        <p>
+                            Book an appointment with our designers, and start creating the design which suits you the
+                            best.
+                        </p>
+                        <a href="/about_us#contactus"><button>Book Now</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section name="merchant-container">
+        <div class="merchant-container">
+            <div class="cards-text">
+                <strong>Become a Merchant</strong>
+                <p>
+                    Future Apparel's "Become a Merchant" is a partnership program with Future Apparel where you can list
+                    your designs on Future Apparel website and get payments acoording to the orders your design
+                    recieved.
+                </p>
+                <a href="/partner"><button>Sign Up</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section name="stored-designs">
+        <div class="stored-designs">
+            <div class="cards-text">
+                <strong>Check out stored designs</strong>
+                <p>We already store thousands of pre-made custom designs to help you get started. Explore now and start
+                    the journey.</p>
+                <div class="caraousel">
+                    <input type="radio" name="slider" id="item-1" checked>
+                    <input type="radio" name="slider" id="item-2">
+                    <input type="radio" name="slider" id="item-3">
+
+                    <div class="caraousel-cards">
+                        <label class="card" for="item-1" id="song-1">
+                            <img src="/Assets/images/j3.png" alt="/Assets/images/j3.png">
+                        </label>
+                        <label class="card" for="item-2" id="song-2">
+                            <img src="/Assets/images/j2.png" alt="/Assets/images/j2.png">
+                        </label>
+                        <label class="card" for="item-3" id="song-3">
+                            <img src="/Assets/images/j1.png" alt="/Assets/images/j1.png">
+                        </label>
+                    </div>
+
+                    <div class="player">
+                        <div class="upper-part">
+                            <div class="play-icon">
+                                <svg width="20" height="20" fill="#2992dc" stroke="#2992dc" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2" class="feather feather-play"
+                                    viewBox="0 0 24 24">
+                            </div>
+                            <div class="info-area" id="test">
+                                <label class="song-info" id="song-info-1">
+                                    <div class="title">JSF - 989</div>
+                                    <div class="sub-line">
+                                        <div class="subtitle">Football</div>
+                                        <div class="time"></div>
+                                    </div>
+                                </label>
+                                <label class="song-info" id="song-info-2">
+                                    <div class="title">JSF - 83 &#039;P&#039;</div>
+                                    <div class="sub-line">
+                                        <div class="subtitle">Football</div>
+                                        <div class="time"></div>
+                                    </div>
+                                </label>
+                                <label class="song-info" id="song-info-3">
+                                    <div class="title">JSF - 38 &#039;Y&#039;</div>
+                                    <div class="sub-line">
+                                        <div class="subtitle">Football</div>
+                                        <div class="time"></div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <span class="progress"></span>
+                        </div>
+                    </div>
+                </div>
+                <button onclick="location.href='/product'">Show More</button>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="sports-genre">
+        <div class="container">
+            <div class="container-text">
+                <p class="gradient-text">Create Your Uniform</p>
+                <strong>Select Your Sport</strong>
+                <p>
+                    Future Apparel manufactures jersies for various sports. Pick your
+                    sports and get started right now.
+                </p>
+            </div>
+        </div>
+        <div class="cards2-grid-container">
+            <div class="cards2">
+                <a href="/genres/1">
+                    <img src="/Assets/images/basketball.jpg" alt="" />
+                    <div class="gradient-overlay"></div>
+                    <p class="overlay-text">Basketball</p>
+                </a>
+            </div>
+            <div class="cards2">
+                <a href="/genres/2">
+                    <img src="/Assets/images/football.jpg" alt="" />
+                    <div class="gradient-overlay"></div>
+                    <p class="overlay-text">Football</p>
+                </a>
+            </div>
+            <div class="cards2">
+                <a href="/genres/3">
+                    <img src="/Assets/images/volleyball.jpg" alt="" />
+                    <div class="gradient-overlay"></div>
+                    <p class="overlay-text">Volleyball</p>
+                </a>
+            </div>
+            <div class="cards2">
+                <a href="/genres/4">
+                    <img src="/Assets/images/esports.jpg" alt="" />
+                    <div class="gradient-overlay"></div>
+                    <p class="overlay-text">Esports</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section name="personalization-container">
+        <div class="personalization-container">
+            <div class="personalization-container-text">
+                <strong>How It Works?</strong>
+                <div class="container-text">
+                    <p>
+                        Check all the steps your order go through in Future Apparel, before
+                        you get the product in your hands.
+                    </p>
+                </div>
+            </div>
+            <div class="personalization-container-cards-container">
+                <div class="personalization-container-card">
+                    <div class="personalization-container-cards-icon">
+                        <i class="fa-solid fa-shirt"></i>
+                    </div>
+                    <div class="personalization-container-cards-text">
+                        <strong>CHOOSE YOUR JERSEY STYLE</strong>
+                        <p>
+                            Select the type of jersey you want to customize, including the
+                            cut, color, and any special features you may want, such as a
+                            specific neckline or sleeve style
+                        </p>
+                    </div>
+                </div>
+                <div class="personalization-container-card">
+                    <div class="personalization-container-cards-icon">
+                        <i class="fa-solid fa-paintbrush"></i>
+                    </div>
+                    <div class="personalization-container-cards-text">
+                        <strong>DESIGN YOUR JERSEY</strong>
+                        <p>
+                            With out talented designing team, create your own unique design by
+                            choosing from a variety of colors, fonts, and graphics. You can
+                            upload your own logos, artwork, or images to make your jersey
+                            truly one-of-a-kind.
+                        </p>
+                    </div>
+                </div>
+                <div class="personalization-container-card">
+                    <div class="personalization-container-cards-icon">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <div class="personalization-container-cards-text">
+                        <strong>ADD PERSONALIZATION</strong>
+                        <p>
+                            Add your name, number, or any other personalization you want to
+                            your jersey. Choose the font style and placement for your
+                            personalization to make it stand out.
+                        </p>
+                    </div>
+                </div>
+                <div class="personalization-container-card">
+                    <div class="personalization-container-cards-icon">
+                        <i class="fa-solid fa-list-check"></i>
+                    </div>
+                    <div class="personalization-container-cards-text">
+                        <strong>PLACE YOUR ORDER</strong>
+                        <p>
+                            Once you are satisfied with your design and personalization,
+                            simply place your order and let our team take care of the rest. We
+                            will manufacture and deliver your customized jersey to you as soon
+                            as possible, so you can show it off with pride!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section name="reviews-container">
+        <div class="container">
+            <div class="container-text">
+                <strong>Have Faith In Them</strong>
+                <p>
+                    We want every consumer to discuss their experience with us since we
+                    value their opinions. By doing this, we assist new clients in making
+                    better decisions and we keep enhancing our offerings.
+                </p>
+            </div>
+            <div class="container-cards-reviews">
+
+                <div class="container-cards-item">
+                    <p>
+                        Best quality with reasonable price in the town do visit …I ordered 12 pcs and was provided
+                        within 2days thank you
+                    </p>
+                    <b>Bipin Budha</b>
+                </div>
+                <div class="container-cards-item">
+                    <p>
+                        It&#039;s awesome and high quality clothing brand
+                        Thank you for this precious jersey 😍❤️ …
+                    </p>
+                    <b>It&#039;s me SAMAR</b>
+                </div>
+                <div class="container-cards-item">
+                    <p>
+                        The designs here is absolutely new and good. So people who are planning to make new Jersey,
+                        sports or esports they can choose them.
+                    </p>
+                    <b>Kiddo is Live</b>
+                </div>
+            </div>
+        </div>
+        <div class="review-container">
+            <p>Your valuable review would help us improve on our product.</p>
+            <a
+                href="https://www.google.com/maps/place/Future+Apparel/@27.6891796,85.2837388,17z/data=!4m8!3m7!1s0x39eb17d2c8bc7cbf:0x2f5844954f76a0b7!8m2!3d27.6891796!4d85.2863137!9m1!1b1!16s%2Fg%2F11sc42hckm?entry=ttu">
+                <button>
+                    Write Your Review Here
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <section name="social-container">
+        <div class="social-container">
+            <div class="container-text">
+                <strong>Follow Us On Our Socials</strong>
+                <p>
+                    Stay connected to us on our social media account, where you get
+                    regular updates about Future Apparel
+                </p>
+            </div>
+            <div class="brands">
+                <p><a href="https://www.facebook.com/futureapparel.np/"><i class="fa-brands fa-facebook"></i></a></p>
+                <p><a href="https://www.instagram.com/futureapparel__/"><i class="fa-brands fa-instagram"></i></a></p>
+                <p><a href="https://www.tiktok.com/@futureapparel"><i class="fa-brands fa-tiktok"></i></a></p>
+            </div>
+            <div class="instagram-feed">
+            </div>
+        </div>
+    </section>
+
+    <section name="footer">
+        <div class="footer-links">
+            <div class="col">
+                <strong>Useful Links</strong>
+                <ul>
+                    <li><a href="https://futureapparel.com.np/">Home</a></li>
+                    <li><a href="https://futureapparel.com.np/#sports-genre">Categories</a></li>
+                    <li><a href="https://futureapparel.com.np/product">Jersey Collection</a></li>
+                    <!--<li><a href="">Other Wears</a></li>-->
+                    <li><a href="https://futureapparel.com.np/about_us">Contact Us</a></li>
+                    <li><a href="https://futureapparel.com.np/partner">Partner With Us</a></li>
+                    <li><a href="https://futureapparel.com.np/login">Refer and Earn</a></li>
+                    <li><a href="">Terms and Conditiosn</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <strong>Useful Links</strong>
+                <ul>
+                    <li><a href="https://futureapparel.com.np/">Home</a></li>
+                    <li><a href="https://futureapparel.com.np/#sports-genre">Categories</a></li>
+                    <li><a href="https://futureapparel.com.np/product">Jersey Collection</a></li>
+                    <!--<li><a href="">Other Wears</a></li>-->
+                    <li><a href="https://futureapparel.com.np/about_us">Contact Us</a></li>
+                    <li><a href="https://futureapparel.com.np/partner">Partner With Us</a></li>
+                    <li><a href="https://futureapparel.com.np/login">Refer and Earn</a></li>
+                    <li><a href="">Terms and Conditiosn</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <strong>Useful Links</strong>
+                <ul>
+                    <li><a href="https://futureapparel.com.np/">Home</a></li>
+                    <li><a href="https://futureapparel.com.np/#sports-genre">Categories</a></li>
+                    <li><a href="https://futureapparel.com.np/product">Jersey Collection</a></li>
+                    <!--<li><a href="">Other Wears</a></li>-->
+                    <li><a href="https://futureapparel.com.np/about_us">Contact Us</a></li>
+                    <li><a href="https://futureapparel.com.np/partner">Partner With Us</a></li>
+                    <li><a href="https://futureapparel.com.np/login">Refer and Earn</a></li>
+                    <li><a href="">Terms and Conditiosn</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <small>Coypright 2024 <i class="fa-regular fa-copyright"></i> | FUTURE APPAREL</small>
+            </div>
+        </footer>
+    </section>
+
+    <section name="pointer">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <script src="/Assets/js/main.js"></script>
+        <script>
+            document.addEventListener('contextmenu', function (e) {
+                e.preventDefault();
+            }, false);
+        </script>
+    </section>
+</body>
+
+</html>
